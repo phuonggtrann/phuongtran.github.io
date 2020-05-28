@@ -3,7 +3,7 @@ layout: post
 title: Accepted Age of the Universe 
 subtitle: Can it be trusted?
 gh-repo: phuonggtrann/DS-Unit-1-Build
-gh-badge: [fork, follow]
+gh-badge: [follow]
 
 comments: true
 ---

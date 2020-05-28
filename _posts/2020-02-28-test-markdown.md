@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Accepted Age of the Universe 
+subtitle: Can it be trusted?
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+gh-badge: [fork, follow]
+
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+I was wonder if the accepted age of the universe is trust-worthy. I decided to take it upon myself to explore the validity of the value. The universe we live in isn't flat and it keep expanding, known as redshift. The universe contains billions of galaxies, each galaxies contains miliions of stars.  I started by collecting valuable data/information. I order to caculate the age of the universe, I needed to collect: 
 
 **Here is some bold text**
 
@@ -16,15 +16,14 @@ This is a demo post to show you how to write blog posts with markdown.  I strong
 
 Here's a useless table:
 
-| Number | Next number | Previous number |
+| Galaxy Name | Modulus Distance | Recession Velocity |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| UGC12914 | 33.49 | 4522.0 |
+| PGC000143	 | 24.94 | -54.0 |
+| NGC7814 | 30.80	 | 1204.0 |
+| UGC00014 | 35.03 | 7428.0 |
 
-
-How about a yummy crepe?
+Base on this information, I was able to deduce it
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
@@ -59,20 +58,4 @@ var foo = function(x) {
 foo(3)
 {% endhighlight %}
 
-## Boxes
-You can add notification, warning and error boxes like this:
 
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.

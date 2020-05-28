@@ -8,13 +8,13 @@ gh-badge: [follow]
 comments: true
 ---
 
-I was wonder if the accepted age of the universe is trust-worthy. I decided to take it upon myself to explore the validity of the value. The universe we live in isn't flat and it keep expanding, known as redshift. The universe contains billions of galaxies, each galaxies contains miliions of stars.  I started by collecting valuable data/information. I order to caculate the age of the universe, I needed to collect: 
+I was wonder if the accepted age of the universe is trust-worthy. I decided to take it upon myself to explore the validity of the value. The universe we live in isn't static and it keeps expanding. Because of this expanding nature, light from other galaxies observe from Earth appear to be redshifted the further away they are from us. The universe contains billions of galaxies, each galaxies contains miliions of stars. 
+By calculating their distant away from us, I can then estimate the age of the universe. I started by collecting valuable data/information. I order to caculate the age of the universe, I needed to collect: 
 
 **Here is some bold text**
 
 ## Here is a secondary heading
 
-Here's a useless table:
 
 | Galaxy Name | Modulus Distance | Recession Velocity |
 | :------ |:--- | :--- |

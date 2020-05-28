@@ -4,7 +4,7 @@ title: About me
 subtitle: Data Science | Computer Science
 ---
 
-My name is Phuong Tran and I am a data scientist I have the following qualities:
+My name is Phuong Tran and I am a data scientist. I have the following qualities:
 
 - Bachelor of Science in Computer Science (class of 2022)
 - I love to think of myself as a very hardworking person. I don’t back down from challenges and my thirst for knowledge is my driving force. Whenever I am faced with an obstacle, I know that my perseverance will triumph over that obstacle.

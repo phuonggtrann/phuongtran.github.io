@@ -8,8 +8,6 @@ gh-badge: [follow]
 comments: true
 ---
 
-<a id='intro'></a>
-
 In this project, a data set of appointment records in public hospitals at Vitoria, Brazil is investigated. The reason that affect the ability of a patient to miss the appointment attract our attention. This data set contains patient's record such as whether the patients show up, information about the appointment as well as the patient. 
 
 Given the information and attributes about the patients with their scheduled appointment, how likely is a patient show up to the appoinment as scheduled? Throughout this project and a given data set, we are trying to answer this question by exploring the daat set as well as finding correlation between variables. 

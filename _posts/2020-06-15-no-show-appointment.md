@@ -9,7 +9,6 @@ comments: true
 ---
 
 <a id='intro'></a>
-## Introduction
 
 In this project, a data set of appointment records in public hospitals at Vitoria, Brazil is investigated. The reason that affect the ability of a patient to miss the appointment attract our attention. This data set contains patient's record such as whether the patients show up, information about the appointment as well as the patient. 
 

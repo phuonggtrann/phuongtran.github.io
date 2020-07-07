@@ -1,4 +1,19 @@
-# Project: No Show Appointment Data Analysis
+---
+layout: post
+title: No Show Appointment
+subtitle: Data Analysis
+gh-repo: phuonggtrann/UdacityDataAnalysisNanoDegree06-2020
+gh-badge: [follow]
+
+comments: true
+---
+
+<a id='intro'></a>
+## Introduction
+
+In this project, a data set of appointment records in public hospitals at Vitoria, Brazil is investigated. The reason that affect the ability of a patient to miss the appointment attract our attention. This data set contains patient's record such as whether the patients show up, information about the appointment as well as the patient. 
+
+Given the information and attributes about the patients with their scheduled appointment, how likely is a patient show up to the appoinment as scheduled? Throughout this project and a given data set, we are trying to answer this question by exploring the daat set as well as finding correlation between variables. 
 
 ## Table of Contents
 <ul>
@@ -7,13 +22,6 @@
 <li><a href="#eda">Exploratory Data Analysis</a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 </ul>
-
-<a id='intro'></a>
-## Introduction
-
-In this project, a data set of appointment records in public hospitals at Vitoria, Brazil is investigated. The reason that affect the ability of a patient to miss the appointment attract our attention. This data set contains patient's record such as whether the patients show up, information about the appointment as well as the patient. 
-
-Given the information and attributes about the patients with their scheduled appointment, how likely is a patient show up to the appoinment as scheduled? Throughout this project and a given data set, we are trying to answer this question by exploring the daat set as well as finding correlation between variables. 
 
 ### Questions:
 (1) How is age affecting the patient's absense?

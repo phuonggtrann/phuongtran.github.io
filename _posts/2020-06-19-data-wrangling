@@ -39,12 +39,12 @@ This is the report of my wrangling effort. In this project, I was doing data wra
 **Insight 1:**
 In my visualization project, I realized a few things. Using the data, I was able to deduce the 3 most popular dog breeds in relation to the tweets posted. The most popular one is Golden Retriever coming in at about 200 appearances followed by Pembroke (Corgi) and Labrador. 
 I can explain the relation as to why Labrador is among the top three. Since golden retriever is the most popular and labrador is a non-furred version of them, it makes sense that it would also be popular. Contrary to my research, if we look at the United State alone, Labrador is more popular than Golden Retriever. I think other countries have factored into the popularity of the breed in relation to the tweet as well.
-
+![png](ins1.png)
 The corgi has recently become popular properly due to the queen of England’s love for one. Also, many people view corgi as a representation of them as well (short and clumsy). 
 
 **Insight 2:**
 Another thing I notice is the months with the most tweets. December comes first followed by November and January. I think the reason for these results having to do with users having more free time. I noticed that these months are the months of popular holiday all around the world. December has the most tweets because Christmas is popular anywhere in the world. 
-
+![png](ins2.png)
 **Insight 3:**
 The next thing I notice is the rating for each dog. These ratings are just for fun. I don’t think they are rated based on any particular set of features. However, it is interesting that the number 12/10 is the most commonly used rating. I don’t have an explanation of it. Maybe 12 is just a popular number?
-
+![png](ins3.png)

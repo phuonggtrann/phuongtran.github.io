@@ -22,3 +22,6 @@ I begin my interest first in computer science with a simple "Hello World". I use
 - **Proficient Programming Languages:** Python, Java, C, HTML, CSS
 - **Development Tools and Technologies:** Visual Studio Code, Postgres, Linux, React, Git, Python libraries (numpy, pandas, matplotlib, seaborn)
 - **Soft Skills:** Excellent Time Management Skills, Communicative, Strong problem-solving skills
+
+### Certificate:
+- Udcity Data Analytic Nanodegree: *https://confirm.udacity.com/SDPZ5PQK*

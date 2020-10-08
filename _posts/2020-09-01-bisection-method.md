@@ -13,20 +13,17 @@ comments: true
 According to given information, each of the functions has exactly one root between -1 and 1. Therefore, f(-1)*f(1) < 0 and my starting interval is [-1, 1].
 
 **Function (A): f(x) = (432x4 + 72x2 + 16x + 1)e − 8e6x**   
-	[-1, 1]: root = -0.183516
-	[-0.2, 1]: root = -0.183516
-	[-0.2, 0.2]: root = -0.183517
-	[-0.2, 0]: root = -0.183517
-	[-0.19, 0]: root = -0.183517
-	[-0.19, -0.17]: root = -0.183517
-CONCLUSION:
-After trunking down the interval from [-1,1] to [-0.19, -0.17] and since the results of the last 4 intervals are consistent (-0.183517 for the last 4 intervals and -0.183516 for the first 2 trials), I am confident that the root is close to -0.183517. Therefore, I am sure that my first 6 digits of the root is correct because of the consistency that I stated above. To double check my work, I tried f(xc) where xc is my final guess and the results is 7.64
+> [-1, 1]: root = -0.183516
+> [-0.2, 1]: root = -0.183516
+> [-0.2, 0.2]: root = -0.183517
+> [-0.2, 0]: root = -0.183517
+> [-0.19, 0]: root = -0.183517
+> [-0.19, -0.17]: root = -0.183517
 
+#### CONCLUSION:
+> After trunking down the interval from [-1,1] to [-0.19, -0.17] and since the results of the last 4 intervals are consistent (-0.183517 for the last 4 intervals and -0.183516 for the first 2 trials), I am confident that the root is close to -0.183517. Therefore, I am sure that my first 6 digits of the root is correct because of the consistency that I stated above. To double check my work, I tried f(xc) where xc is my final guess and the results is 7.64, in which, extremely close to 0. 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-, in which, extremely close to 0. 
-MATLAB SESSION: 
+**MATLAB SESSION:** 
 ```
 >> format long
 >> f = @(x) (432*x^4 + 72*x^2 + 16*x + 1)*exp(1) - 8*exp(6*x);

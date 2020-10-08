@@ -13,14 +13,14 @@ comments: true
 According to given information, each of the functions has exactly one root between -1 and 1. Therefore, f(-1)*f(1) < 0 and my starting interval is [-1, 1].
 
 **Function (A): f(x) = (432x4 + 72x2 + 16x + 1)e − 8e6x**   
-> [-1, 1]: root = -0.183516 <br/>
-> [-0.2, 1]: root = -0.183516<br/>
-> [-0.2, 0.2]: root = -0.183517<br/>
-> [-0.2, 0]: root = -0.183517<br/>
-> [-0.19, 0]: root = -0.183517<br/>
-> [-0.19, -0.17]: root = -0.183517<br/>
 
-### CONCLUSION:
+> [-1, 1]: root = -0.183516 <br/>
+> [-0.2, 1]: root = -0.183516 <br/>
+> [-0.2, 0.2]: root = -0.183517 <br/>
+> [-0.2, 0]: root = -0.183517 <br/>
+> [-0.19, 0]: root = -0.183517 <br/>
+> [-0.19, -0.17]: root = -0.183517 <br/>
+
 > After trunking down the interval from [-1,1] to [-0.19, -0.17] and since the results of the last 4 intervals are consistent (-0.183517 for the last 4 intervals and -0.183516 for the first 2 trials), I am confident that the root is close to -0.183517. Therefore, I am sure that my first 6 digits of the root is correct because of the consistency that I stated above. To double check my work, I tried f(xc) where xc is my final guess and the results is 7.64, in which, extremely close to 0. 
 
 **MATLAB SESSION:** 
@@ -70,6 +70,7 @@ ans =
      7.641771270883169e-06
 ```
 **Function (B): f(x) = (432x4 + 72x2 + 16x + 2)e − 8e6x**  
+
 > [-1, 1]: root = -0.135866<br/>
 > [-1, 0]: root = -0.135866<br/>
 > [-0.5, 0]: root = -0.135866<br/>
@@ -77,8 +78,6 @@ ans =
 > [-0.14, -0.13]: root = -0.135866<br/>
 > [-0.136, -0.13]: root = -0.135866<br/>
 	
-### CONCLUSION:
-
 > After trunking down the interval from [-1,1] to [-0.136, -0.13] and since the results of all tested intervals are consistent (-0.135866), I am confident that the root is close to -0.135866. Therefore, I am sure that my first 6 digits of the root is correct because of the consistency that I stated above. To double check my work, I tried f(xc) where xc is my final guess and the results is -8.75, in which, extremely close to 0. 
 
 **MATLAB SESSION:**

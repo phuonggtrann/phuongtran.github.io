@@ -266,7 +266,6 @@ ans =
 
 **MATLAB CODE:**
 ```
-MATLAB CODE:
 %Program 1.1 Bisection Method
 %Computes approximate solution of f(x)=0
 %Input: function handle f; a,b such that f(a)*f(b)<0,

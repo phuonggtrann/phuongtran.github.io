@@ -8,7 +8,7 @@ gh-badge: [follow]
 comments: true
 ---
 
-
+## Solving Equation by Bisection Method
 
 According to given information, each of the functions has exactly one root between -1 and 1. Therefore, f(-1)*f(1) < 0 and my starting interval is [-1, 1].
 

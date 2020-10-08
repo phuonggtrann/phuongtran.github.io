@@ -13,7 +13,7 @@ comments: true
 According to given information, each of the functions has exactly one root between -1 and 1. Therefore, f(-1)*f(1) < 0 and my starting interval is [-1, 1].
 
 **Function (A): f(x) = (432x4 + 72x2 + 16x + 1)e − 8e6x**   
-> [-1, 1]: root = -0.183516
+> [-1, 1]: root = -0.183516 <br/>
 > [-0.2, 1]: root = -0.183516
 > [-0.2, 0.2]: root = -0.183517
 > [-0.2, 0]: root = -0.183517

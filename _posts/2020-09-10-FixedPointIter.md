@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bisection Method
+title: Fixed Point Iteration Method
 subtitle: Numerical Analysis
 gh-repo: phuonggtrann/math446
 gh-badge: [follow]

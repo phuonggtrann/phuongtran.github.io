@@ -8,7 +8,7 @@ gh-badge: [follow]
 comments: true
 ---
 
-## Equation:  e^(-x)+ x^3-x-2=0**
+## Equation:  e^(-x)+ x^3-x-2=0
 
 ### (2)g(x)= -ln⁡(-x^3+x+2)
 - **First root: -0.48756103475**

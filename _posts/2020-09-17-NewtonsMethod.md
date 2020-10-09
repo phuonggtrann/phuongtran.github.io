@@ -74,6 +74,7 @@ ratio =
                    0
 ```
 
+
 ### f(x)=(432x^4+72x^2+16x+2)e-8e^6x
 - Root:   -0.135866537960991
 - 8 steps,x_0= -0.2 
@@ -139,6 +140,7 @@ ratio =
                    0
 ```
 
+
 ### f(x)=(432x^4+72x^2+16x+3)e-8e^6x
 - Root:      0.166437598042732
 - 50 steps,x_0= -0.2 
@@ -147,6 +149,7 @@ ratio =
 - Slower convergence than the first 2 therefore I suggest this is linear convergence. I tried to do it on paper and got m=5. The convergent rate, however, is hard to find. My closest is 0.7929
 
 **MATLAB Code:**
+
 ```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 3)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 50;
@@ -287,6 +290,8 @@ ratio =
                  NaN
                    0
 ```
+
+
 ### f(x)=(432x^4+72x^2+16x+4)e-8e^6x
 - Root:   0.436535483161814
 - 15 steps,x_0= 0.3 
@@ -374,6 +379,7 @@ ratio =
                  Inf
                    0
 ```
+
 
 ### Conclusion: <br/>
 **Function roots:** <br/>

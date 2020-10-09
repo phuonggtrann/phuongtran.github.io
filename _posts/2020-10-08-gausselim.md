@@ -39,14 +39,8 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 
 ### Conclusion:
 - Out of all 9 trials (3 matrices, 3 sizes for each), 8 of them could be solved with at least one correct digit. Since the RFE of A2 when n=18 is 22.67, which is near 23 and is bigger than 0.5*10^-1.
-- 	
---	A1 is the easiest with small RFE.
---	A2 is the hardest with big RFE, especially when n=18.
---	A3 is the medium one.
--
--- A1 need size of 18 to get at least one digit of accuracy
--- A2 need size of 12 to get at least one digit of accuracy (Since n=18 doesn’t work because of its RFE)
--- A3 need size of 18 to get at least one digit of accuracy
+- A1 is the easiest with small RFE, A2 is the hardest with big RFE, especially when n=18, A3 is the medium one.
+- A1 need size of 18 to get at least one digit of accuracy, A2 need size of 12 to get at least one digit of accuracy (Since n=18 doesn’t work because of its RFE), A3 need size of 18 to get at least one digit of accuracy
 
 
 **MATLAB CODE:**

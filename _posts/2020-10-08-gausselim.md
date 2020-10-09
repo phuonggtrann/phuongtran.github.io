@@ -16,14 +16,9 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 - A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)
 
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One | 
 
-### A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)<br/>
+#### A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)<br/>
+
 
 | Size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- |:--- |:--- |:--- |
@@ -32,15 +27,19 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 | 18 | 1.007589946234150 | 1.472155730652958e-13 | 1.461066315870969e-13 | 57.582507993251738
 
 
-### A2(i, j) = (i + sin(i + j))/(i + j + 1)<br/>
-| size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND)
+#### A2(i, j) = (i + sin(i + j))/(i + j + 1)<br/>
+
+
+| size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 2.370433142701478 | 3.889324418082651e-10 | 1.640765288005617e-10 | 2.259665789391311e+06 
 | 12 | 4.347366764479971 | 2.415508971687075e-04 | 5.556257621102775e-05 | 5.146361740838818e+12
 | 18 | 6.745749826083214 | 22.666835057243510 | 3.360165384372779 | 2.663035149379290e+17
 
-### A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
-| size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND)
+#### A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
+
+
+| size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 8.319901808803753 | 4.485301019485632e-14 | 5.391050426508021e-15 | 8.829339368344521e+02 
 | 12 | 21.312719339396107 | 2.722400083143839e-11 | 1.277359326977830e-12 | 1.852023667474059e+06

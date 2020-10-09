@@ -8,6 +8,8 @@ gh-badge: [follow]
 comments: true
 ---
 
+# Solving Equation by Fixed Point Iteration Method (FPI)
+
 ## Equation:  e^(-x)+ x^3-x-2=0
 <br/>
 

@@ -9,12 +9,13 @@ comments: true
 ---
 
 ## Equation:  e^(-x)+ x^3-x-2=0
+<br/>
 
 ### (2)g(x)= -ln⁡(-x^3+x+2)
 - **First root: -0.48756103475**
 - Number of steps: 15
 - x_0= -0.5
-- S=|-(1-3(r^2))/(-r^3+r+2) | = 0.17616267
+- S = abs(-(1-3(r^2))/(-r^3+r+2)) = 0.17616267
 - Approximation rate: 0.176162171045838  Match with convergence rate above. However, it matches for up to 6 decimal places and only happen once.
 
 ```
@@ -91,7 +92,7 @@ ratios =
 **Second root: -4.451620296**
 - Number of steps: 40
 - x_0= -4.45
-- S=|-(1-3(r^2))/(-r^3+r+2) | = 0.68151607
+- S = abs(-(1-3(r^2))/(-r^3+r+2)) = 0.68151607
 - Approximation rate: 0.681515541009002  Match with convergence rate above. However, it matches for up to 5 decimal places and happens a couple of times.
 
 ```
@@ -219,7 +220,7 @@ ratios =
 - **Third root: -1.80657027**
 - Number of steps: 55
 - x_0= -2
-- S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3)) | = 0.72407947
+- S = abs((1+e^(-x))/(3(e^(-x)+x+2)^(2/3))) = 0.72407947
 - Approximation rate: 0.724079440171620 Match with convergence rate above. However, it matches for up to 7 decimal places and only happen once.
 
 ```
@@ -377,8 +378,8 @@ ratios =
 - **Fourth root 1.481974814587466**
 - Number of steps: 25
 - x_0=1.5
-- S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3))  | = 0.1862552
-- Approximation rate:    0.186255194701434  Match with convergence rate above. However, it matches for up to 6 decimal places and only happen once.
+- S = abs((1+e^(-x))/(3(e^(-x)+x+2)^(2/3))) = 0.1862552
+- Approximation rate:    0.186255194701434, match with convergence rate above. However, it matches for up to 6 decimal places and only happen once.
 
 ```
 	FPI Code:

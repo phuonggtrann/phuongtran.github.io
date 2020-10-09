@@ -1,7 +1,63 @@
+
+## How do floating point operation rounding errors can reduce the accuracy of linear equation (y = Ax + b). It is possible to lose all correct digits ?<br/>
+
+The goal is to solved for unknown x with the smallest possible relative foward erroe (RFE). It is done with 3 differents size (n) and 3 different equations for 1 ≤ i, j ≤ n:<br/>
+- A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)
+- A2(i, j) = (i + sin(i + j))/(i + j + 1)
+- A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)
+
+**MATLAB CODE:**
+
+```
+GausseLim.m
+%% Elimination
+for i = 1:n-1
+    for j = i+1:n
+        m = a(j,i)/a(i,i);
+        for k = i:n
+            a(j,k) = a(j,k)-m*a(i,k);
+        end
+        b(j) = b(j) - m*b(i);
+    end
+end
+ 
+%% Back Sub
+x = zeros(n,1);
+for i = n:-1:1
+    for j = i+1:n
+        b(i) = b(i) - a(i,j)*x(j);
+    end
+    x(i) = b(i)/a(i,i);
+end
+x; % This is solution
+
+GL_run.m
+n = 6 ; % n might be 6, 12, 18
+aorig = zeros(n,n);
+for i = 1:n
+    for j = 1:n
+        % This depend on function A1, A2, or A3
+        aorig(i,j) =  (i + 1/ sin(i + j))/(j + cos(i + j) + 1));
+    end
+end
+c = ones(n,1);
+b = aorig*c;
+a = aorig;
+GausseLim
+ 
+% Calculate RBE, RFE, EMF, condition number
+%% Not sure why RBE and COND is different when I use a instead of aorig
+% Decide to go with aorig because original always better(no rounding)
+RBE = norm(aorig*x - b, inf)/norm(b, inf)
+RFE = norm(c-x, inf)/norm(c,inf)
+EMF = RBE/RFE
+COND = cond(aorig,inf)
+A1(i,j)=  ((i+1)/(sin⁡(i+j)))⁄(j+cos⁡(i+j)+1)
+```
+
 **MATLAB SESSION:**
 
 ```
-A1(i,j)=  ((i+1)/(sin⁡(i+j)))⁄(j+cos⁡(i+j)+1)
 >> gl_run
 n =
      6
@@ -107,49 +163,4 @@ EMF =
      2.720023928375625e-10
 COND =
      4.549076021914460e+08
-MATLAB CODE:
-GausseLim.m
-%% Elimination
-for i = 1:n-1
-    for j = i+1:n
-        m = a(j,i)/a(i,i);
-        for k = i:n
-            a(j,k) = a(j,k)-m*a(i,k);
-        end
-        b(j) = b(j) - m*b(i);
-    end
-end
- 
-%% Back Sub
-x = zeros(n,1);
-for i = n:-1:1
-    for j = i+1:n
-        b(i) = b(i) - a(i,j)*x(j);
-    end
-    x(i) = b(i)/a(i,i);
-end
-x; % This is solution
-
-GL_run.m
-n = 6 ; % n might be 6, 12, 18
-aorig = zeros(n,n);
-for i = 1:n
-    for j = 1:n
-        % This depend on function A1, A2, or A3
-        aorig(i,j) =  (i + 1/ sin(i + j))/(j + cos(i + j) + 1));
-    end
-end
-c = ones(n,1);
-b = aorig*c;
-a = aorig;
-GausseLim
- 
-% Calculate RBE, RFE, EMF, condition number
-%% Not sure why RBE and COND is different when I use a instead of aorig
-% Decide to go with aorig because original always better(no rounding)
-RBE = norm(aorig*x - b, inf)/norm(b, inf)
-RFE = norm(c-x, inf)/norm(c,inf)
-EMF = RBE/RFE
-COND = cond(aorig,inf)
 ```
-

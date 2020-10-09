@@ -464,8 +464,8 @@ ratios =
                    0
 
 ### Conclusion: 
-I found 4 roots of the given equation by the following:    {-0.48756103475, -4.451620296, -1.80657027, 1.481974814587466} <br/>
-I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)<br/>
+I found 4 roots of the given equation by the following:    {-0.48756103475, -4.451620296, -1.80657027, 1.481974814587466}
+I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)
 (1) x= e^(-x)+x^3-2 
 - Not used, derive from isolating x
 (2) x=-ln⁡(-x^3+x+2)  

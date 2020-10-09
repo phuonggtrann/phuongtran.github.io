@@ -1,3 +1,12 @@
+---
+layout: post
+title: Floating Point Operations Rounding Errors
+subtitle: Numerical Analysis
+gh-repo: phuonggtrann/math446
+gh-badge: [follow]
+
+comments: true
+---
 
 ## How do floating point operation rounding errors can reduce the accuracy of linear equation (y = Ax + b). It is possible to lose all correct digits ?<br/>
 

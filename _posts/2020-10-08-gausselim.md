@@ -36,7 +36,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 | 18 | 6.745749826083214 | 22.666835057243510 | 3.360165384372779 | 2.663035149379290e+17
 
 
-#### A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
+#### <br/>A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
 
 | size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 | 12 | 21.312719339396107 | 2.722400083143839e-11 | 1.277359326977830e-12 | 1.852023667474059e+06
 | 18 | 36.687933440269994 | 9.979205684018666e-09 | 2.720023928375625e-10 | 4.549076021914460e+08
 
-### Conclusion:
+### <br/>Conclusion:
 - Out of all 9 trials (3 matrices, 3 sizes for each), 8 of them could be solved with at least one correct digit. Since the RFE of A2 when n=18 is 22.67, which is near 23 and is bigger than 0.5*10^-1.
 - A1 is the easiest with small RFE, A2 is the hardest with big RFE, especially when n=18, A3 is the medium one.
 - A1 need size of 18 to get at least one digit of accuracy, A2 need size of 12 to get at least one digit of accuracy (Since n=18 doesn’t work because of its RFE), A3 need size of 18 to get at least one digit of accuracy

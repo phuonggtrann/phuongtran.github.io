@@ -16,6 +16,7 @@ comments: true
 - Fast converge, took 6 times to find the actual root. Convergence rate is matched to the  3rd decimal place.
 
 **MATLAB Code:**
+
 ```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 1)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 8;
@@ -81,6 +82,7 @@ ratio =
 - Fast converge, took 5 times to find the actual root. Convergence rate is matched to the 2nd  decimal place. I tried to keep the same initial guess and steps with A but the convergence rate doesn’t match with calculated M. Therefore, I changed my initial guess around to find the most accurate convergent rate. 
 
 **MATLAB Code:**
+
 ```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 2)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 8;

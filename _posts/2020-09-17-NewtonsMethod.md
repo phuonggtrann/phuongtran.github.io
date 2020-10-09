@@ -7,6 +7,7 @@ gh-badge: [follow]
 
 comments: true
 ---
+## Solving Equation by Newton's Method, determine "local" convergence
 
 ### f(x)=(432x^4+72x^2+16x+1)e-8e^6x
 - Root: -0.183517046673394**

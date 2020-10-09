@@ -8,17 +8,15 @@ gh-badge: [follow]
 comments: true
 ---
 
+### f(x)=(432x^4+72x^2+16x+1)e-8e^6x
+- Root: -0.183517046673394**
+- 8 steps,x_0= -0.15 
+- M=  (f''(x))/(2f'(x))= 5.2517146174653 
+- lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )= 5.251627863404252〗
+- Fast converge, took 6 times to find the actual root. Convergence rate is matched to the  3rd decimal place.
 
-
-	f(x)=(432x^4+72x^2+16x+1)e-8e^6x
-
-	Root: -0.183517046673394
-	8 steps,x_0= -0.15 
-	M=  (f''(x))/(2f'(x))= 5.2517146174653 
-	lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )= 5.251627863404252〗
-	Fast converge, took 6 times to find the actual root. Convergence rate is matched to the  3rd decimal place.
-	MATLAB Code:
-
+**MATLAB Code:**
+```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 1)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 8;
 x = zeros(numSteps, 1);
@@ -73,15 +71,17 @@ ratio =
                  NaN
                  NaN
                    0
-	f(x)=(432x^4+72x^2+16x+2)e-8e^6x
+```
 
-	Root:   -0.135866537960991
-	8 steps,x_0= -0.2 
-	M=  (f''(x))/(2f'(x))= 6.1351327123367 
-	lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )=  6.134429454118887〗
-	Fast converge, took 5 times to find the actual root. Convergence rate is matched to the 2nd  decimal place. I tried to keep the same initial guess and steps with A but the convergence rate doesn’t match with calculated M. Therefore, I changed my initial guess around to find the most accurate convergent rate. 
-	MATLAB Code:
+### f(x)=(432x^4+72x^2+16x+2)e-8e^6x
+- Root:   -0.135866537960991
+- 8 steps,x_0= -0.2 
+- M=  (f''(x))/(2f'(x))= 6.1351327123367 
+- lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )=  6.134429454118887〗
+- Fast converge, took 5 times to find the actual root. Convergence rate is matched to the 2nd  decimal place. I tried to keep the same initial guess and steps with A but the convergence rate doesn’t match with calculated M. Therefore, I changed my initial guess around to find the most accurate convergent rate. 
 
+**MATLAB Code:**
+```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 2)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 8;
 x = zeros(numSteps, 1);
@@ -135,17 +135,17 @@ ratio =
                  NaN
                  NaN
                    0
+```
 
-	f(x)=(432x^4+72x^2+16x+3)e-8e^6x
+### f(x)=(432x^4+72x^2+16x+3)e-8e^6x
+- Root:      0.166437598042732
+- 50 steps,x_0= -0.2 
+- m/(m-1)= 0.80 
+- lim┬(i→ ∞ )⁡〖e_(i+1)/e_i = 0.797294409762213〗
+- Slower convergence than the first 2 therefore I suggest this is linear convergence. I tried to do it on paper and got m=5. The convergent rate, however, is hard to find. My closest is 0.7929
 
-Root:      0.166437598042732
-	
-	50 steps,x_0= -0.2 
-	m/(m-1)= 0.80 
-	lim┬(i→ ∞ )⁡〖e_(i+1)/e_i = 0.797294409762213〗
-	Slower convergence than the first 2 therefore I suggest this is linear convergence. I tried to do it on paper and got m=5. The convergent rate, however, is hard to find. My closest is 0.7929
-	MATLAB Code:
-
+**MATLAB Code:**
+```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 3)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 50;
 x = zeros(numSteps, 1);
@@ -284,16 +284,16 @@ ratio =
                  NaN
                  NaN
                    0
+```
+### f(x)=(432x^4+72x^2+16x+4)e-8e^6x
+- Root:   0.436535483161814
+- 15 steps,x_0= 0.3 
+- M=  (f''(x))/(2f'(x))= 8.159357331388
+- lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )=  8.159628955325694〗
+- Fast converge, took 14 times to find the actual root (Maybe my initial guess is far from the actual root?). Convergence rate is matched to the 3rd decimal place. 
 
-	f(x)=(432x^4+72x^2+16x+4)e-8e^6x
-
-	Root:   0.436535483161814
-	15 steps,x_0= 0.3 
-	M=  (f''(x))/(2f'(x))= 8.159357331388
-	lim┬(i→ ∞ )⁡〖e_(i+1)/(e_i^2 )=  8.159628955325694〗
-	Fast converge, took 14 times to find the actual root (Maybe my initial guess is far from the actual root?). Convergence rate is matched to the 3rd decimal place. 
-	MATLAB Code:
-
+**MATLAB Code:**
+```
 g = @(x) x - ((432*x^4 + 72*x^2 + 16*x + 2)*exp(1)-8*exp(6*x))/(16*exp(1)*(108*x^3+9*x+1)-48*exp(6*x));
 numSteps = 8;
 x = zeros(numSteps, 1);
@@ -371,6 +371,7 @@ ratio =
                    0
                  Inf
                    0
+```
 
 ### Conclusion: <br/>
 **Function roots:** <br/>

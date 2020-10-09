@@ -18,7 +18,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 
 
 #### A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)<br/>
-<br/>
+
 | Size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- |:--- |:--- |:--- |
 | 6 | 1.377811512381070 | 8.992806499463768e-15 | 6.526877166182781e-15 | 59.051023822469567 
@@ -28,7 +28,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 
 
 #### A2(i, j) = (i + sin(i + j))/(i + j + 1)<br/>
-<br/>
+
 | size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 2.370433142701478 | 3.889324418082651e-10 | 1.640765288005617e-10 | 2.259665789391311e+06 
@@ -38,7 +38,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 
 
 #### A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
-<br/>
+
 | size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 8.319901808803753 | 4.485301019485632e-14 | 5.391050426508021e-15 | 8.829339368344521e+02 

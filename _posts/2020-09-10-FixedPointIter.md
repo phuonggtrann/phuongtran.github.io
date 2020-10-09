@@ -465,11 +465,11 @@ ratios =
 
 ### Conclusion: 
 I found 4 roots of the given equation by the following:    {-0.48756103475, -4.451620296, -1.80657027, 1.481974814587466}
-I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)
+I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)<br/>
 (1) x= e^(-x)+x^3-2 
-- Not used, derive from isolating x
+- Not used, derive from isolating x <br/>
 (2) x=-ln⁡(-x^3+x+2)  
-- Used, derive from isolation x^3 and solve for x
+- Used, derive from isolation x^3 and solve for x<br/>
 (3) x= ∛(-e^(-x)+x+2 )   
 - Used, derive from isolation x^3 and solve for x
 - First root took the least steps (15 steps) while third root took the most steps (55 steps).

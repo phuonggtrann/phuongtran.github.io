@@ -24,8 +24,9 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 | Two | Three | One | 
 
 ### A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)<br/>
-| size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND)
-| :------ |:--- | :--- | :--- | :--- |
+
+| Size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
+| :------ |:--- |:--- |:--- |:--- |
 | 6 | 1.377811512381070 | 8.992806499463768e-15 | 6.526877166182781e-15 | 59.051023822469567 
 | 12 | 1.426836226818009 | 1.887379141862766e-14 | 1.322772092822324e-14 | 7.219563930906002e+03
 | 18 | 1.007589946234150 | 1.472155730652958e-13 | 1.461066315870969e-13 | 57.582507993251738

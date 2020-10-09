@@ -86,12 +86,13 @@ ratios =
                    0
                    0
 ```
-	Second root: -4.451620296
-	Number of steps: 40
-	x_0= -4.45
-	 S=|-(1-3(r^2))/(-r^3+r+2) | = 0.68151607
-	Approximation rate: 0.681515541009002  Match with convergence rate above. However, it matches for up to 5 decimal places and happens a couple of times.
-	FPI Code:
+Second root: -4.451620296
+Number of steps: 40
+x_0= -4.45
+S=|-(1-3(r^2))/(-r^3+r+2) | = 0.68151607
+Approximation rate: 0.681515541009002  Match with convergence rate above. However, it matches for up to 5 decimal places and happens a couple of times.
+```
+FPI Code:
 g = @(x) -log(- x^3 + x + 2);
 numSteps = 15;
 x = zeros(numSteps,1);
@@ -209,14 +210,15 @@ ratios =
    0.405298693609964
                    0
                    0
+```
 
 (3)g(x)= √(3&〖-e〗^(-x)+x+2)
-
-	Third root: -1.80657027
-	Number of steps: 55
-	x_0= -2
-	 S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3)) | = 0.72407947
-	Approximation rate: 0.724079440171620 Match with convergence rate above. However, it matches for up to 7 decimal places and only happen once.
+- Third root: -1.80657027
+- Number of steps: 55
+- x_0= -2
+- S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3)) | = 0.72407947
+- Approximation rate: 0.724079440171620 Match with convergence rate above. However, it matches for up to 7 decimal places and only happen once.
+```
 	FPI Code:
 g = @(x) nthroot(x+2-exp(-x),3);
 numSteps = 55;
@@ -366,12 +368,13 @@ ratios =
    0.419980372665284
                    0
                    0
-
-	Fourth root 1.481974814587466
-	Number of steps: 25
-	x_0=1.5
-	 S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3))  | = 0.1862552
-Approximation rate:    0.186255194701434  Match with convergence rate above. However, it matches for up to 6 decimal places and only happen once.
+```
+- Fourth root 1.481974814587466
+- Number of steps: 25
+- x_0=1.5
+- S=|(1+e^(-x))/(3(e^(-x)+x+2)^(2/3))  | = 0.1862552
+- Approximation rate:    0.186255194701434  Match with convergence rate above. However, it matches for up to 6 decimal places and only happen once.
+```
 	FPI Code:
 g = @(x) nthroot(x+2-exp(-x),3);
 numSteps = 25;
@@ -462,10 +465,11 @@ ratios =
                  NaN
                  NaN
                    0
+```
 
 ### Conclusion: 
-I found 4 roots of the given equation by the following:    {-0.48756103475, -4.451620296, -1.80657027, 1.481974814587466}
-I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)<br/>
+- I found 4 roots of the given equation by the following:    {-0.48756103475, -4.451620296, -1.80657027, 1.481974814587466}
+- I derive the original equation into 3 different form of x = g(x). However, I only use 2 of them since I tried to work with the other one but it doesn’t work (not working MATLAB session is not included)<br/>
 (1) x= e^(-x)+x^3-2 
 - Not used, derive from isolating x <br/>
 (2) x=-ln⁡(-x^3+x+2)  

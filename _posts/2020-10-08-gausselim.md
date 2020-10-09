@@ -10,7 +10,7 @@ comments: true
 
 ## How do floating point operation rounding errors can reduce the accuracy of linear equation (y = Ax + b). It is possible to lose all correct digits ?<br/>
 
-The goal is to solved for unknown x with the smallest possible relative foward erroe (RFE). It is done with 3 differents size (n) and 3 different nxn matrices for 1 ≤ i, j ≤ n:<br/>
+The goal is to solved for unknown x with the smallest possible relative foward error (RFE). It is done with 3 differents size (n) and 3 different nxn matrices for 1 ≤ i, j ≤ n:<br/>
 - A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)
 - A2(i, j) = (i + sin(i + j))/(i + j + 1)
 - A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)
@@ -18,7 +18,7 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 
 
 #### A1(i, j) = (i + 1/ sin(i + j))/(j + cos(i + j) + 1)<br/>
-
+<br/>
 
 | Size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- |:--- |:--- |:--- |
@@ -26,25 +26,25 @@ The goal is to solved for unknown x with the smallest possible relative foward e
 | 12 | 1.426836226818009 | 1.887379141862766e-14 | 1.322772092822324e-14 | 7.219563930906002e+03
 | 18 | 1.007589946234150 | 1.472155730652958e-13 | 1.461066315870969e-13 | 57.582507993251738
 
-
+<br/>
 #### A2(i, j) = (i + sin(i + j))/(i + j + 1)<br/>
-
+<br/>
 
 | size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 2.370433142701478 | 3.889324418082651e-10 | 1.640765288005617e-10 | 2.259665789391311e+06 
 | 12 | 4.347366764479971 | 2.415508971687075e-04 | 5.556257621102775e-05 | 5.146361740838818e+12
 | 18 | 6.745749826083214 | 22.666835057243510 | 3.360165384372779 | 2.663035149379290e+17
-
+<br/>
 #### A3(i, j) = (i + sin(i + j))/(j + cos(i + j) + 1)<br/>
-
+<br/>
 
 | size | Relative Backward Error (RBE) |Relative Foward Error (RFE) | Error Magnification Factor (EMF) | Condition Number (COND) |
 | :------ |:--- | :--- | :--- | :--- |
 | 6 | 8.319901808803753 | 4.485301019485632e-14 | 5.391050426508021e-15 | 8.829339368344521e+02 
 | 12 | 21.312719339396107 | 2.722400083143839e-11 | 1.277359326977830e-12 | 1.852023667474059e+06
 | 18 | 36.687933440269994 | 9.979205684018666e-09 | 2.720023928375625e-10 | 4.549076021914460e+08
-
+<br/>
 ### Conclusion:
 - Out of all 9 trials (3 matrices, 3 sizes for each), 8 of them could be solved with at least one correct digit. Since the RFE of A2 when n=18 is 22.67, which is near 23 and is bigger than 0.5*10^-1.
 - A1 is the easiest with small RFE, A2 is the hardest with big RFE, especially when n=18, A3 is the medium one.

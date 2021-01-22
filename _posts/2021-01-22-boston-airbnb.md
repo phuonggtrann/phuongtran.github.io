@@ -8,8 +8,8 @@ gh-badge: [follow]
 comments: true
 ---
 
-### Business Model
-Airbnb is an online housing platform that help traveler to connect and book homestays from local hosts while help local hosts earn extra money by listing their available space / room for rent. 
+### 1. Business Understanding
+Airbnb is an online housing platform that help traveler to connect and book homestays from local hosts while help local hosts earn extra money by listing their available space / room for rent. Airbnb was founded in 2017 by Nathan Blecharczyk, Joe Gebbia and Brian Chesky. Eventhough the free listing offer, they still make money from 2 differents sources after every booking is done which are 10% commission from host and 3% transaction fee from the tranvellers. 
 
 
 Using the above data, I created a graph with x as actual distance and y as recession velocity.

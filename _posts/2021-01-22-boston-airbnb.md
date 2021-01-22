@@ -14,7 +14,9 @@ Airbnb is an online housing platform that help traveler to connect and book home
 ### 2. Data Understanding
 #### a. Neighbourhood vs Price
 
-![png](output_22_0.png)
+![png](bp1.png)
+
+![png](bp2.png)
 Using the above data, I created a graph with x as actual distance and y as recession velocity.
 
 

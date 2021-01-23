@@ -2,7 +2,7 @@
 layout: post
 title: Boston AirBnb  
 subtitle: What factors influence Boston Airbnb's Price?
-gh-repo: phuonggtrann/DS-Unit-1-Build
+gh-repo: phuonggtrann/BostonAirbnbAnalysis
 gh-badge: [follow]
 
 comments: true

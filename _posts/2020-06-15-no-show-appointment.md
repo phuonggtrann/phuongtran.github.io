@@ -935,7 +935,7 @@ plt.show()
 ```
 
 
-![heatmap](https://imgur.com/DwGToUq)
+![Imgur](https://i.imgur.com/DwGToUq.png)
 
 
 

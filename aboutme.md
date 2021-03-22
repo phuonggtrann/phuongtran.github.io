@@ -24,9 +24,9 @@ I begin my interest first in computer science with a simple "Hello World". I use
 
 
 ### Certificate:
-- Udcity Data Analytic Nanodegree: *https://confirm.udacity.com/SDPZ5PQK*
-- Google Analytics Certificate: 
-    Practices and processes used by a junior or associate data analysis.
-    Learn key analytical skills (data cleanign, analysis/visualization, and tools (Spreadsheets, SQL, R, Tableu)
-    Clean and Organize data for analysis. Complete analysis and calculations using spreadsheets, SQL and R
-    Visualize and present data findings in dashboardds, presentations and commonly used visualization platforms
+* Udcity Data Analytic Nanodegree: *https://confirm.udacity.com/SDPZ5PQK*
+* Google Analytics Certificate: 
+    * Practices and processes used by a junior or associate data analysis.
+    * Learn key analytical skills (data cleanign, analysis/visualization, and tools (Spreadsheets, SQL, R, Tableu)
+    * Clean and Organize data for analysis. Complete analysis and calculations using spreadsheets, SQL and R
+    * Visualize and present data findings in dashboardds, presentations and commonly used visualization platforms

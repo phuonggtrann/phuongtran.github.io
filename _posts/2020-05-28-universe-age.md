@@ -19,7 +19,11 @@ I was wondering if the accepted age of the universe is trust-worthy. I decided t
 
 Using the above data, I created a graph with x as actual distance and y as recession velocity.
 
-![Imgur](https://i.imgur.com/JfoJOMw.png)
+![Imgur](https://i.imgur.com/vvJyE83.png)
+
+I was able to notice that more than 70% of the data points rely on the first half of the graph. I decided to use the part of the data that is densly packed together. With the help of Hubble’s Law formula, I calculated the age of each galaxy in the data set, I then noticed that the majority of those galaxies’ age are around 13 to 14 billion years. From the graph below, I can confidently conclude that our universe is approximately 13 to 14 billion years old.
+
+![Imgur](https://i.imgur.com/R1D61eD.png)
 
 Having the age range, I then tried to find a more specific number to represent the universe's age. I then use linear regression to find the slope, which, base on the Hubble's law, is the Hubble constant. 
 

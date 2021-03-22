@@ -926,7 +926,6 @@ df.head()
 ## Exploratory Data Analysis
 
 ### Does the time gap between scheduled day with appointment day affect the likelihood of now-show appointments?
-Check update
 
 ```python
 plt.figure(figsize=(20,10))
@@ -949,7 +948,7 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![Imgur](https://i.imgur.com/NhPSJj7.png)
 
 
 
@@ -964,8 +963,7 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
-
+![Imgur](https://i.imgur.com/7EKQSs5.png)
 
 
 ```python
@@ -978,7 +976,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![Imgur](https://i.imgur.com/8dPMGLJ.png)
 
 
 - From the 3 charts above, we can conclude that people like to make appointment that is approximately 2 weeks prior to the scheduled day.
@@ -998,7 +996,7 @@ plt.show()
 ```
 
 
-![png](output_28_0.png)
+![Imgur](https://i.imgur.com/Ey2rixn.png)
 
 
 
@@ -1013,7 +1011,7 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![Imgur](https://i.imgur.com/J8NxeVF.png)
 
 
 - As patients are getting older, they are less likely to make an appointment
@@ -1032,7 +1030,7 @@ plt.show()
 ```
 
 
-![png](output_32_0.png)
+![Imgur](https://i.imgur.com/glbB0m8.png)
 
 
 
@@ -1064,7 +1062,7 @@ plt.show()
 ```
 
 
-![png](output_34_0.png)
+![Imgur](https://i.imgur.com/3zW8Q0d.png)
 
 
 - The number of female patients is as twice as the number of male patients. 

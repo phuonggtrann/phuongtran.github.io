@@ -926,7 +926,7 @@ df.head()
 ## Exploratory Data Analysis
 
 ### Does the time gap between scheduled day with appointment day affect the likelihood of now-show appointments?
-
+Check update
 
 ```python
 plt.figure(figsize=(20,10))

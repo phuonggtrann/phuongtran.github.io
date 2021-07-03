@@ -14,7 +14,7 @@ subtitle: Data Science | Computer Science
 What else do you need?
 
 ### Experience
-- ** Software Engineer Internship - Cvent (06/2021 - 08/2021)
+- **Software Engineer Internship - Cvent (06/2021 - 08/2021)
 -- Team stand up
 
 ### Skills:

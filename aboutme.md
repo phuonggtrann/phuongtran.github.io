@@ -15,7 +15,10 @@ What else do you need?
 
 ### Experience
 * **Software Engineer Internship - Cvent (06/2021 - 08/2021)**
-   * Team stand up
+   * Participates in daily stands up and weekly team meetings
+   * Using React, Redux, GraphQL to resolve bugs under guidance of a Senior Software Engineer
+* **Software Engineer Internship - BrainGu (05/2021 - 08/2021)**
+  * Develop an internal project for BrainGu with a team of interns using React, Redux, Material UI, and Django
 
 ### Skills:
 - **Programming Languages (with Exposure):** R, Matlab, JavaScript, x84-64, SQLITE3

@@ -22,14 +22,14 @@ What else do you need?
    * Using React, Redux, GraphQL to resolve bugs under guidance of a Senior Software Engineer
 * **Software Engineer Internship - BrainGu (05/2021 - 08/2021)**
   * Develop an internal project for BrainGu with a team of interns using React, Redux, Material UI, and Django
-* **Software Engineer Intern - Focusloop (08/2019 - 12/2019)**
+* **Software Engineer Internship - Focusloop (08/2019 - 12/2019)**
   * Assisting in creating a full-stack mobile applications that focus on providing marketing value to small / medium businesses
   * Assisting in recreate the application front-end using React and Redux
 * **Undergrad Teaching Assistant - GMU VOLGENAU SCHOOL OF ENGINEERING (08/2019 - 12/2019)**
   * Providing mentoring to students
   * Regulate and maintain online discussion forum for students
   * Attend weekly lectures to assis professors
-* **Software Developer Intern - GMU OSCAR (06/2019 - 12/2019)**
+* **Software Developer Intern - GMU OSCAR (06/2019 - 08/2019)**
   * Develop novel algorithms and design an intuitive graphical UI for translating significant biological data for non-science audiences using React, Django REST, Plotly
 
 ### Skills:

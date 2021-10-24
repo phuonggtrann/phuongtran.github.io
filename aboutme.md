@@ -12,12 +12,13 @@ subtitle: Data Science | Computer Science | Software Engineer
 What else do you need?
 
 ### Education
+* **Western Governor University**
+* B.S Computer Science (12/2021)
 * **George Mason University**
-  * B.S Computer Science, minor in Computational Data Science (2018 - 2022)
-  * Accelerated M.S Data Analytics Engineer (2022 - 2023)
+  * 08/2017 - 12/2020
  
 ### Experience
-* **Software Engineer Internship - Cvent (06/2021 - 08/2021)**
+* **Software Engineer Internship - Cvent (06/2021 - now)**
    * Participates in daily stands up and weekly team meetings
    * Using React, Redux, GraphQL to resolve bugs under guidance of a Senior Software Engineer
 * **Software Engineer Internship - Focusloop (08/2019 - 12/2019)**

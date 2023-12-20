@@ -12,13 +12,15 @@ subtitle: Data Science | Computer Science | Software Engineer
 What else do you need?
 
 ### Education
+* **Georgia Institute of Technology**
+* M.S Computer Science - Interactive Intelligent (expected 2024)
 * **Western Governor University**
-* B.S Computer Science (12/2021)
-* **George Mason University**
-  * 08/2017 - 12/2020
+* B.S Computer Science 
  
 ### Experience
-* **Software Engineer Internship - Cvent (06/2021 - now)**
+* **Software Engineer 2 - Cvent (08/2023 - present)**
+* **Software Engineer 1 - Cvent (02/2022 - 08/2023)**
+* **Software Engineer Internship - Cvent (06/2021 - 02/2022)**
    * Participates in daily stands up and weekly team meetings
    * Using React, Redux, GraphQL to resolve bugs under guidance of a Senior Software Engineer
 * **Software Engineer Internship - Focusloop (08/2019 - 12/2019)**
